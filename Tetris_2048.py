@@ -157,7 +157,7 @@ def main():
 def create_tetromino():
    """Create a random tetromino from all 7 types."""
    types = ['I', 'O', 'Z', 'S', 'J', 'L', 'T']
-   return Tetromino(types[random.randint(0, 6)])
+   return Tetromino(types[3])
 
 
 def draw_pause_screen(grid_height, grid_width, panel_width):
